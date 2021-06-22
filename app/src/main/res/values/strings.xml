@@ -1,0 +1,37 @@
+<resources xmlns:https="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Covid-19 Vaccine Finder</string>
+    <string name="tvSlot">Check Available Slot</string>
+    <string name="tvDate">Enter Date</string>
+    <string name="etDate">01-01-2001</string>
+    <string name="tvAppointment">Check Appointment by</string>
+    <string name="rbPincode">Pincode</string>
+    <string name="tvPin">Enter Pincode</string>
+    <string name="_100001">100001</string>
+    <string name="rbDistrict">District Name</string>
+    <string name="tvState">Select State</string>
+    <string name="tvDistrict">Select District</string>
+    <string name="btnCheck">Check</string>
+    <string name="tvResults">Results</string>
+    <string name="tvCenter">Center Name</string>
+    <string name="tvAddress">Address:</string>
+    <string name="tvAddres">Site Address</string>
+    <string name="age_limit">Age Limit:</string>
+    <string name="tvAge">XX</string>
+    <string name="available_capacity">Available Capacity:</string>
+    <string name="tvAvailableCap">XX</string>
+    <string name="fee">Fee:</string>
+    <string name="free_paid">Free/Paid</string>
+    <string name="tvFee">XXX</string>
+    <string name="vaccine">Vaccine:</string>
+    <string name="tvVaccine">XXXXXXX</string>
+    <string name="timing">Timing:</string>
+    <string name="tvTime">XXXXXXXX - XXXXXX</string>
+    <string name="slots">Slots:</string>
+    <string name="tvSlots">TextView</string>
+    <string name="coWin">To book the slots click here:  <a href="">co-WIN Register</a></string>
+    <string name="your_detail_of_notification">your detail of notification...</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="loading">Loading...</string>
+    <string name="todo">TODO</string>
+</resources>

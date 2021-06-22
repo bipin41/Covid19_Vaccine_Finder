@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_15dp"
+            android:layout_margin="@dimen/_10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10dp">
+
+                    <TextView
+                        android:id="@+id/tvCenter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/tvCenter"
+                        android:textIsSelectable="true"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_26sp" />
+
+                    <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvCenter"
+                        android:layout_alignParentEnd="false"
+                        android:layout_marginTop="@dimen/_5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/etDate"
+                        android:textIsSelectable="true"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_20sp"
+                        android:layout_alignParentRight="false" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_marginEnd="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_5dp">
+
+                    <TextView
+                        android:id="@+id/tvAddr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tvAddress"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/_18sp" />
+
+                    <TextView
+                        android:id="@+id/tvAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10dp"
+                        android:layout_toEndOf="@id/tvAddr"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/tvAddres"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_18sp"
+                        android:textIsSelectable="true"
+                        android:layout_toRightOf="@id/tvAddr"
+                        android:layout_marginLeft="@dimen/_10dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_marginEnd="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_5dp">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/age_limit"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/_18sp" />
+
+                    <TextView
+                        android:id="@+id/tvAge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10dp"
+                        android:layout_toEndOf="@id/textView12"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/tvAge"
+                        android:textIsSelectable="true"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_18sp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_toRightOf="@id/textView12" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_marginEnd="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_5dp">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textIsSelectable="true"
+                        android:text="@string/available_capacity"
+                        android:textSize="@dimen/_18sp" />
+
+                    <TextView
+                        android:id="@+id/tvAvailableCap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10dp"
+                        android:layout_toEndOf="@id/textView14"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/tvAvailableCap"
+                        android:textIsSelectable="true"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_18sp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_toRightOf="@id/textView14" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_marginEnd="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_5dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textIsSelectable="true"
+                        android:text="@string/fee"
+                        android:textSize="@dimen/_18sp" />
+
+                    <TextView
+                        android:id="@+id/tvFeeType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_5dp"
+                        android:layout_marginEnd="@dimen/_5dp"
+                        android:textIsSelectable="true"
+                        android:layout_toEndOf="@id/textView17"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/free_paid"
+                        android:textAlignment="center"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_18sp"
+                        android:layout_toRightOf="@id/textView17"
+                        android:gravity="center_horizontal" />
+
+                    <TextView
+                        android:id="@+id/tvFee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="false"
+                        android:layout_marginStart="@dimen/_10dp"
+                        android:layout_toEndOf="@id/tvFeeType"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/tvFee"
+                        android:textIsSelectable="true"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_18sp"
+                        android:layout_alignParentRight="false"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_toRightOf="@id/tvFeeType" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_marginEnd="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_5dp">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vaccine"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/_18sp" />
+
+                    <TextView
+                        android:id="@+id/tvVaccine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10dp"
+                        android:layout_toEndOf="@id/textView21"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/tvVaccine"
+                        android:textIsSelectable="true"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_18sp"
+                        android:layout_marginLeft="@dimen/_10sp"
+                        android:layout_toRightOf="@id/textView21" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_marginEnd="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_5dp">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/timing"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/_18sp" />
+
+                    <TextView
+                        android:id="@+id/tvTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10dp"
+                        android:layout_toEndOf="@id/textView23"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/tvTime"
+                        android:textIsSelectable="true"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_18sp"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_toRightOf="@id/textView23" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_5dp"
+                    android:layout_marginEnd="@dimen/_5dp"
+                    android:layout_marginBottom="@dimen/_10dp">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/slots"
+                        android:textIsSelectable="true"
+                        android:textSize="@dimen/_18sp" />
+
+                    <TextView
+                        android:id="@+id/tvSlots"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10dp"
+                        android:layout_toEndOf="@id/textView25"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="@string/tvSlots"
+                        android:textColor="#0E0E0E"
+                        android:textSize="@dimen/_18sp"
+                        android:textIsSelectable="true"
+                        android:layout_marginLeft="@dimen/_10dp"
+                        android:layout_toRightOf="@id/textView25" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

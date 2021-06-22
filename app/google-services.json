@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "775422718645",
+    "project_id": "pushnotification-47164",
+    "storage_bucket": "pushnotification-47164.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775422718645:android:16a70e3abd23049d3f44fc",
+        "android_client_info": {
+          "package_name": "com.example.covid_19vaccinefinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775422718645-tc2ula79vlnfmgv2sa977at1rfnrmh2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD41SqhWSwsOqMWLSfjR8gi5C1zBuMZYwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775422718645-tc2ula79vlnfmgv2sa977at1rfnrmh2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
